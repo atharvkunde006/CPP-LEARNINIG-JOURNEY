@@ -1,10 +1,12 @@
 #include<iostream>
-#include<algorithm>
 using namespace std;
 int main(){
-    string arr[]={"atharv","aditya","akshay"};
-sort(arr,arr+3);
-cout<<"sorted words are:";
-for(int i=0;i<3;i++){
-    cout<<arr[i]<<" ";
-}}
+    int arr[5];
+    cout<<"Enter the size of array:"<<endl;
+    for(int i=1;i<5;i++){
+        cin>>arr[i];
+    }
+    for(int i=0;i<5;i++)
+    sort(arr.begin(),arr.end());
+    
+}
